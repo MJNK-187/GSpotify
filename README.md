@@ -42,10 +42,15 @@ Gebeurd dit probleem wel? Verander de naam van  .env.example  naar  .env  en in 
 Zoek in het .env bestand naar deze database settings en pas ze aan zoals hieronder beschreven:
 
 DB_CONNECTION=mysql
+
 DB_HOST=127.0.0.1
+
 DB_PORT=3306
+
 DB_DATABASE=gspotify_db
+
 DB_USERNAME=LET OP: OM ZEKER TE ZIJN DAT ALLES WERKT, MAAK EEN NIEUWE USER AAN IN JE LOKALE DATABASE MET WACHTWOORD EN ZORG DAT DE NIEUWE USER ALLE PRIVILEGES BEZIT!
+
 DB_PASSWORD=EN VOER DEZE HIER IN.
 
 2. Nadat je het .env bestand heb aangepast zoals hierboven beschreven kunnen onderstaande commands uitgevoerd worden:
